@@ -317,7 +317,7 @@ open func bind(inputAccessoryView: UIView, withAdditionalBottomSpace additionalB
     // MARK: - Helper Methods
 
     private func animateAlongside(_ notification: KeyboardNotification, animations: @escaping ()->Void) {
-        UIView.animate(withDuration: notification.timeInterval, delay: 1, options: [notification.animationOptions, .allowAnimatedContent, .beginFromCurrentState], animations: animations, completion: nil)
+        // UIView.animate(withDuration: notification.timeInterval, delay: 1, options: [notification.animationOptions, .allowAnimatedContent, .beginFromCurrentState], animations: animations, completion: nil)
     }
 
     // MARK: - UIGestureRecognizerDelegate
